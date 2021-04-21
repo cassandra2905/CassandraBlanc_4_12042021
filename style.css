@@ -651,7 +651,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: black!important;
 }
 
 h5.h5-contact {
@@ -686,6 +686,13 @@ p {
     font-size: 1.5rem;
 }
 
+blockquote {
+    color: black;
+}
+
+cite {
+    color: #272a2b;
+}
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
@@ -725,6 +732,7 @@ h3 {
 .h3-text-center h3 {
     text-transform: none;
     font-weight: normal;
+    color: black;
 
 }
 
