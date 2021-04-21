@@ -714,11 +714,18 @@ h2 {
     line-height: 1.4em;
 }
 
+
 h3 {
     font-size: 20px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
+}
+
+.h3-text-center h3 {
+    text-transform: none;
+    font-weight: normal;
+
 }
 
 .med-width-whitespace {
@@ -789,7 +796,6 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #fccf6f;
-    box-shadow: 0 0 1px white;
     color: black!important;
 }
 
@@ -800,12 +806,12 @@ h4 {
 
 .ltc-white {
     color:#fccf6f!important;
-    font-size: 1.7rem;
+    font-size: 1.9rem;
 }
 
 .ltc-white:hover {
-    color: black!important;
-    text-shadow: none;
+    color: #4d2107!important;
+    text-shadow: 0 0 1px white;
 }
 
 .ltc-atomic-tangerine {
