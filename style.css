@@ -712,7 +712,6 @@ cite {
 }
 
 .social {
-    max-width: 400px;
     margin: auto auto auto auto;
 }
 
@@ -852,10 +851,7 @@ h4 {
 }
 
 @media (max-width: 1024px) {
-    .bloc {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
+    
     .bloc.full-width-bloc,
     .bloc-tile-2.full-width-bloc .container,
     .bloc-tile-3.full-width-bloc .container,
@@ -1006,8 +1002,9 @@ h4 {
         margin-left: 10px;
     }
     .bloc {
-        padding-left: 0;
-        padding-right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .bloc-xxl,
     .bloc-xl,
@@ -1071,4 +1068,10 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+/****************/
+.block-image section a {
+    display: flex;
+    justify-content: center;
 }
